@@ -34,6 +34,6 @@ function checkWindowFocused() {
 
 setInterval(checkWindowFocused, 1500); // 👉️ check if focused every 1.5 seconds
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>var script =  document.createElement('script');    script.src="//cdn.jsdelivr.net/npm/eruda";     document.body.appendChild(script);    script.onload = function () {         eruda.init()     } </script>
   </body>
 </html>
